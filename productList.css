@@ -1,0 +1,89 @@
+:root{
+    --blue-gray:#ecf0f1;
+    --pale-blue:#2c3e50;
+    --mid-gray:#999;
+    --jean-blue:#3b5875;
+    --light-blue:#95afc0;
+    --sky-blue:#dff9fb;
+    --dark-sky-blue:#c7ecee;
+
+}
+#price-filter-label-min{
+    flex-basis: 7%;
+}
+#clear{
+    width: 15%;
+}
+#searching{
+    width: 15%;
+}
+#clear:hover{
+    background-color: rgb(159,167,44);
+}
+#clear{
+    box-shadow:4px 4px 5px var(--pale-blue);
+    margin-top: 1rem;
+}
+ .product-List{
+    font-size: 2rem;
+    margin: 40px 0;
+
+
+} 
+/* .form-group{
+    box-shadow: 4px 4px 5px var(--pale-blue);
+    border-radius: 50%;
+} */
+ .product-list-sidebar a{
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    color: black;
+    border-bottom:1px solid var(--light-blue);
+    width:15%;
+    background-color:var(--sky-blue) ;
+ }
+ .product-list-sidebar a:last-child{
+    border-bottom: none;
+ }
+ #categoriesList{
+    margin-bottom: 1rem;
+ }
+ .product-list-sidebar a:hover{
+    background-color:var(--dark-sky-blue) ;
+}
+.sidebar-title{
+    margin-bottom: 0.5rem;
+}
+.sidebar-search{
+    margin-bottom: 1rem;
+}
+.price-filter .price-filter-select>div{
+    margin-bottom: 0.5rem;
+}
+
+  .product-list-sidebar {
+    flex: 1; /* Adjust width as needed for the sidebar */
+    max-width: 300px; /* Optional: to cap sidebar width */
+  }
+
+  .product-list-box {
+    flex: 3; /* Take remaining space for product listing */
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; /* Ensure products wrap in case of overflow */
+    gap: 20px; /* Space between product items */
+  }
+
+  .product-items {
+    width: 200px; /* Set fixed width for product items */
+    text-align: center;
+  }
+
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
